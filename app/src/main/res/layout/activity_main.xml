@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.veri.aplhitungbangun.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Masukan Panjang "
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:id="@+id/ET_1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Masukan Lebar"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"/>
+    <EditText
+        android:id="@+id/ET_2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="40dp">
+    <Button
+        android:id="@+id/btnLuas"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:text="Luas Persegi"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/btnKel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Keliling Persegi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/tvhasil"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="70sp"
+        />
+    <Button
+        android:id="@+id/btnHapus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Hapus"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        />
+</LinearLayout>

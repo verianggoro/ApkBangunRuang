@@ -17,8 +17,10 @@
         android:layout_marginLeft="10dp"/>
     <EditText
         android:id="@+id/ET_1"
+        android:inputType="number"
+        android:hint="Masukan Panjang"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"/>
@@ -32,8 +34,10 @@
         android:layout_marginLeft="10dp"/>
     <EditText
         android:id="@+id/ET_2"
+        android:inputType="number"
+        android:hint="Masukan Luas"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"/>
@@ -41,38 +45,44 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:layout_marginTop="40dp">
+    android:layout_marginTop="30dp">
     <Button
         android:id="@+id/btnLuas"
-        android:layout_width="170dp"
-        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:text="Luas Persegi"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"/>
     <Button
         android:id="@+id/btnKel"
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:text="Keliling Persegi"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="5dp"
         android:layout_marginRight="10dp"/>
 </LinearLayout>
 
     <TextView
         android:id="@+id/tvhasil"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="100dp"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:text="0"
         android:textAlignment="center"
-        android:textSize="70sp"
+        android:textSize="60sp"
         />
     <Button
         android:id="@+id/btnHapus"
+        android:background="#FF0000"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Hapus"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginTop="5dp"
